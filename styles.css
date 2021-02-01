@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: rgb(186, 209, 212);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	user-select: none;
+	font-family: Tahoma;
+}
+main {
+	margin: 10%;
+	background-color: rgb(138, 190, 197);
+	width: 300px;
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.3);
+}
+.header span{
+	width: 138px;
+}
+input {
+	border-radius: 5px;
+	border: none;
+	width: 264px;
+	height: 36px;
+	margin: 7px 7px 22px 7px;
+	padding: 0 10px 0 10px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: medium;
+	outline: none;
+	background-color: rgb(217, 251, 255);
+}
+.first {
+	
+	margin: 0 7px 11px 7px;
+}
+span { 
+    float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 66px;
+	height: 36px;
+	
+	background: rgb(118, 178, 218);
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 0 7px 11px 0;
+	
+	color: rgb(22, 22, 22);
+	line-height: 36px;
+	text-align: center;
+}
+.clean {
+	background: rgb(218, 118, 118);
+}
+.back {
+	background:rgb(208, 218, 118);
+}
+.operator {
+	background:rgb(118, 128, 218);
+}
+.sc {
+	background:rgb(200, 218, 118);
+}
+.equal {
+	background:rgb(118, 218, 133);
+}
+.clean:hover{
+	background: rgb(206, 71, 71);
+	box-shadow: 0px 4px rgb(143, 72, 72);
+	color:  rgb(54, 46, 46);
+}
+.back:hover{
+	background: rgb(205, 223, 51);
+	box-shadow: 0px 4px rgb(133, 139, 75);
+	color:  rgb(62, 63, 54);
+}
+.operator:hover{
+	background: rgb(90, 103, 211);
+	box-shadow: 0px 4px rgb(67, 73, 126);
+	color:  rgb(227, 229, 252);
+}
+.sc:hover{
+	background: rgb(205, 223, 51);
+	box-shadow: 0px 4px rgb(133, 139, 75);
+	color:  rgb(62, 63, 54);
+}
+.equal:hover{
+	background:rgb(52, 216, 77);
+	box-shadow: 0px 4px rgb(74, 139, 84);
+	color:  rgb(52, 59, 53);
+}
+span:hover {
+	background: rgb(52, 150, 216);
+	box-shadow: 0px 4px rgb(67, 108, 134);;
+	color: rgb(239, 248, 255);
+}
+span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}

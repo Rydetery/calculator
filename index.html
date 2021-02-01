@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/icon.jpg" type="image/png">
+    <title>Calculator</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="header">
+            <div class="screen input"><form name="form"><input type="text" name="textview" readonly></form></div>
+            <span class="clean first" onclick="clean()">C</span>
+            <span class="back" onclick="arrow()">&larr;</span>
+        </div>
+        <div class="buttons">
+            <span class="first operator sc" onclick="insert('(')">(</span>
+            <span class="operator sc" onclick="insert(')')">)</span>
+            <span class="operator" onclick="insert('*')">&times;</span>
+            <span class="operator" onclick="insert('/')">&divide;</span>
+            <span class="first" onclick="insert('7')">7</span>
+            <span onclick="insert('8')">8</span>
+            <span onclick="insert('9')">9</span>
+            <span class="operator" onclick="insert('-')">-</span>
+            <span class="first" onclick="insert('4')">4</span>
+            <span onclick="insert('5')">5</span>
+            <span onclick="insert('6')">6</span>
+            <span class="operator" onclick="insert('+')">+</span>
+            <span class="first" onclick="insert('1')">1</span>
+            <span onclick="insert('2')">2</span>
+            <span onclick="insert('3')">3</span>
+            <span class="operator" onclick="insert('%')">%</span>
+            <span class="first" onclick="insert('0')">0</span>
+            <span onclick="insert('00')">00</span>
+            <span onclick="insert('.')">.</span>
+            <span class="equal" onclick="calculate()">=</span>
+
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
